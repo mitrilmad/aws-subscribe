@@ -1,4 +1,3 @@
-##Subscriber
 
 ##subscribe AWS SNS topic
 
@@ -7,13 +6,13 @@
   AWS_SECRET_ACCESS_KEY=<your secret>
 
 - or set aws credentials by using aws cli
-  aws configure
+  `aws configure
   AWS Access Key ID [****************XYZZ]:
   AWS Secret Access Key [****************3333]:
   Default region name [ap-northeast2]:
-  Default output format [json]:
+  Default output format [json]:`
 
 - set os environment parameter for aws sns subscribe.
-  HTTPENDPOINT
+  `HTTPENDPOINT
   HTTPPROTOCOL
-  SNS_TOPIC_ARN
+  SNS_TOPIC_ARN`
